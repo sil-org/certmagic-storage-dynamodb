@@ -1,5 +1,5 @@
 # DynamoDB Storage adapter for CertMagic
-![Status for sil-org/certmagic-storage-dynamodb](https://github.com/sil-org/certmagic-storage-dynamodb/actions/workflows/test.yml/badge.svg?branch=master)
+![Status for sil-org/certmagic-storage-dynamodb](https://github.com/sil-org/certmagic-storage-dynamodb/actions/workflows/test.yml/badge.svg?branch=main)
 [![Go Report Card](https://goreportcard.com/badge/github.com/sil-org/certmagic-storage-dynamodb)](https://goreportcard.com/report/github.com/sil-org/certmagic-storage-dynamodb)
 
 [CertMagic](https://github.com/caddyserver/certmagic) Is an awesome package for doing all the 
