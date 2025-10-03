@@ -1,6 +1,6 @@
 # DynamoDB Storage adapter for CertMagic
-![Status for silinternational/certmagic-storage-dynamodb](https://github.com/silinternational/certmagic-storage-dynamodb/actions/workflows/test.yml/badge.svg?branch=master)
-[![Go Report Card](https://goreportcard.com/badge/github.com/silinternational/certmagic-storage-dynamodb)](https://goreportcard.com/report/github.com/silinternational/certmagic-storage-dynamodb)
+![Status for sil-org/certmagic-storage-dynamodb](https://github.com/sil-org/certmagic-storage-dynamodb/actions/workflows/test.yml/badge.svg?branch=master)
+[![Go Report Card](https://goreportcard.com/badge/github.com/sil-org/certmagic-storage-dynamodb)](https://goreportcard.com/report/github.com/sil-org/certmagic-storage-dynamodb)
 
 [CertMagic](https://github.com/caddyserver/certmagic) Is an awesome package for doing all the 
 heavy lifting with Let's Encrypt for certificate provisioning and use. In order to be flexible 
@@ -31,7 +31,7 @@ package whatever
 import (
     "github.com/caddyserver/certmagic"
 
-    dynamodbstore "github.com/silinternational/certmagic-storage-dynamodb/v3"
+    dynamodbstore "github.com/sil-org/certmagic-storage-dynamodb/v3"
 )
 
 // ...
@@ -86,7 +86,7 @@ Please do, we like reported issues and pull requests.
 ## License
 MIT License
 
-Copyright (c) 2022 SIL International
+Copyright (c) 2022 SIL Global
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
