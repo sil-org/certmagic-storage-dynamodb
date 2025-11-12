@@ -15,4 +15,4 @@ services:
       AWS_SECRET_ACCESS_KEY: abc123
     depends_on:
       - dynamo
-    command: make
+    command: go test -v -coverprofile=cover.out .
