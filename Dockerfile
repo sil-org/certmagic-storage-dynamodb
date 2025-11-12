@@ -1,6 +1,4 @@
-FROM golang:1.23
-
-RUN apt-get update -y
+FROM golang:1.25
 
 COPY . /certmagic-storage-dynamodb
 

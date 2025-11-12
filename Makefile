@@ -1,5 +1,5 @@
 test: deps
-	go test -v -coverprofile=cover.out .
+	docker compose run test
 
 deps:
 	go get ./...
