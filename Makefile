@@ -3,3 +3,5 @@ test: deps
 
 deps:
 	go get ./...
+
+.PHONY: test deps
