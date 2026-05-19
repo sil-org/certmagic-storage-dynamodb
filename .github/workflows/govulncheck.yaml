@@ -1,0 +1,17 @@
+name: scheduled govulncheck scan
+on:
+  schedule:
+    - cron: '15 6 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  govulncheck:
+    uses: sil-org/workflows/.github/workflows/govulncheck.yaml@main
+    with:
+      check-latest: false
+      go-version-file: './go.mod'
+      go-version-input: ''
+      work-dir: '.'
