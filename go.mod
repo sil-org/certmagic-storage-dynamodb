@@ -1,6 +1,8 @@
 module github.com/sil-org/certmagic-storage-dynamodb/v3
 
-go 1.25.12
+go 1.25.1
+
+toolchain go1.25.13
 
 require (
 	github.com/aws/aws-sdk-go-v2 v1.41.1
