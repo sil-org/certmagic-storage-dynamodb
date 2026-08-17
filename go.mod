@@ -1,6 +1,6 @@
 module github.com/sil-org/certmagic-storage-dynamodb/v3
 
-go 1.25
+go 1.25.1
 
 toolchain go1.25.13
 
