@@ -381,8 +381,7 @@ func TestDynamoDBStorageLockConsistency(t *testing.T) {
 	key := "test"
 
 	// create lock with first instance
-	ctx1, cancel1 := context.WithCancel(context.Background())
-	defer cancel1()
+	ctx1 := t.Context()
 	err = storage1.Lock(ctx1, key)
 	if err != nil {
 		t.Errorf("error creating lock: %s", err.Error())
@@ -456,8 +455,7 @@ func TestDynamoDBStorageStaleLock(t *testing.T) {
 
 	// try to create lock again with another instance,
 	// it should take more than lockTimeout to return.
-	ctx2, cancel2 := context.WithCancel(context.Background())
-	defer cancel2()
+	ctx2 := t.Context()
 	before := time.Now()
 	err = storage2.Lock(ctx2, key)
 	if err != nil {
