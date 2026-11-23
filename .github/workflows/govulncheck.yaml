@@ -12,6 +12,5 @@ jobs:
     uses: sil-org/workflows/.github/workflows/govulncheck.yaml@main
     with:
       check-latest: true
-      go-version-file: './go.mod'
       go-version-input: ''
       work-dir: '.'
